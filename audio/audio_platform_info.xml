@@ -182,6 +182,7 @@
         <device name="SND_DEVICE_LGE_OUT_MITS_MELODY_SPEAKER_TEST" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_MITS_CAMCODER_PLAY_SPEAKER_TEST" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_VOIP_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_LOOPBACK_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_MT_LOOPBACK_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
