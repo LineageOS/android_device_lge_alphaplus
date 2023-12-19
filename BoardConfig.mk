@@ -15,6 +15,9 @@ TARGET_SCREEN_DENSITY := 401
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/alphaplus_lao_com-perf_defconfig
 
+# Platform
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
