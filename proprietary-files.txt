@@ -476,42 +476,30 @@ vendor/lib/camera/com.qti.eeprom.imx351_m24c32.so
 vendor/lib/camera/com.qti.eeprom.imx363_m24c64m.so
 vendor/lib/camera/com.qti.eeprom.imx520_m24c64m.so
 vendor/lib/camera/com.qti.eeprom.s5k3m5_m24c32.so
-vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.imx351_m24c32.so
 vendor/lib64/camera/com.qti.eeprom.imx363_m24c64m.so
 vendor/lib64/camera/com.qti.eeprom.imx520_m24c64m.so
 vendor/lib64/camera/com.qti.eeprom.s5k3m5_m24c32.so
-vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 
 # Camera - Sensor
 vendor/lib/camera/com.qti.sensor.imx351.so
 vendor/lib/camera/com.qti.sensor.imx363.so
 vendor/lib/camera/com.qti.sensor.imx520.so
 vendor/lib/camera/com.qti.sensor.s5k3m5.so
-vendor/lib/camera/com.qti.sensor.irs2381c.so
 vendor/lib64/camera/com.qti.sensor.imx351.so
 vendor/lib64/camera/com.qti.sensor.imx363.so
 vendor/lib64/camera/com.qti.sensor.imx520.so
 vendor/lib64/camera/com.qti.sensor.s5k3m5.so
-vendor/lib64/camera/com.qti.sensor.irs2381c.so
 
 # Camera - Sensormodule
 vendor/lib/camera/com.qti.sensormodule.imx351.bin
 vendor/lib/camera/com.qti.sensormodule.imx363.bin
 vendor/lib/camera/com.qti.sensormodule.imx520.bin
 vendor/lib/camera/com.qti.sensormodule.s5k3m5.bin
-vendor/lib/camera/com.qti.sensormodule.irs2381c_v221.bin
-vendor/lib/camera/com.qti.sensormodule.irs2381c_v221c.bin
-vendor/lib/camera/com.qti.sensormodule.irs2381c_v22114.bin
-vendor/lib/camera/com.qti.sensormodule.irs2381c_v22116.bin
 vendor/lib64/camera/com.qti.sensormodule.imx351.bin
 vendor/lib64/camera/com.qti.sensormodule.imx363.bin
 vendor/lib64/camera/com.qti.sensormodule.imx520.bin
 vendor/lib64/camera/com.qti.sensormodule.s5k3m5.bin
-vendor/lib64/camera/com.qti.sensormodule.irs2381c_v221.bin
-vendor/lib64/camera/com.qti.sensormodule.irs2381c_v221c.bin
-vendor/lib64/camera/com.qti.sensormodule.irs2381c_v22114.bin
-vendor/lib64/camera/com.qti.sensormodule.irs2381c_v22116.bin
 
 # Camera - tuned
 vendor/lib/camera/com.qti.tuned.default.bin
