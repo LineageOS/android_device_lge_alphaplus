@@ -1,3 +1,6 @@
+## All unpinned files are from G820NO40c
+## alphaplus_lao_com-user 12 SKQ1.211103.001 22244172863c5 release-keys'
+
 # ACDBDATA
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/Codec_cal.acdb
