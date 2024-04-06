@@ -1,5 +1,4 @@
 # ACDBDATA
-vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/Codec_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
@@ -8,47 +7,56 @@ vendor/etc/acdbdata/Handset_cal.acdb
 vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # ADSP Modules
-vendor/lib/rfsa/adsp/activity.so
 vendor/lib/rfsa/adsp/AlacDecoderModule.so.1
 vendor/lib/rfsa/adsp/ApeDecoderModule.so.1
 vendor/lib/rfsa/adsp/AudioContextDetection.so.1
 vendor/lib/rfsa/adsp/AudioSphereModule.so.1
+vendor/lib/rfsa/adsp/CFCMModule.so.1
+vendor/lib/rfsa/adsp/EtsiAmrWbPlusDecModule.so.1
+vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1
+vendor/lib/rfsa/adsp/FlacDecoderModule.so.1
+vendor/lib/rfsa/adsp/HeaacDecoderModule.so.1
+vendor/lib/rfsa/adsp/LdacModule.so.1
+vendor/lib/rfsa/adsp/SAPlusCmnModule.so.1
+vendor/lib/rfsa/adsp/SVACmnModule.so.1
+vendor/lib/rfsa/adsp/VoiceWakeup_V2_Module.so.1
+vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1
+vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1
+vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1
+vendor/lib/rfsa/adsp/activity.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 vendor/lib/rfsa/adsp/cellinfo_tools.so
-vendor/lib/rfsa/adsp/CFCMModule.so.1
 vendor/lib/rfsa/adsp/chre_drv_bt.so
 vendor/lib/rfsa/adsp/chre_drv_gf.so
 vendor/lib/rfsa/adsp/chre_drv_loc.so
 vendor/lib/rfsa/adsp/chre_drv_modem.so
 vendor/lib/rfsa/adsp/chre_drv_wifi.so
 vendor/lib/rfsa/adsp/chre_pal.so
-vendor/lib/rfsa/adsp/EtsiAmrWbPlusDecModule.so.1
-vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1
 vendor/lib/rfsa/adsp/fastrpc_shell_0
 vendor/lib/rfsa/adsp/ffns_module_fv9.so.1
-vendor/lib/rfsa/adsp/ffv_module_fv9.so.1
 vendor/lib/rfsa/adsp/ffv_module.so.1
-vendor/lib/rfsa/adsp/FlacDecoderModule.so.1
-vendor/lib/rfsa/adsp/fluence_bs_module_fv9.so.1
+vendor/lib/rfsa/adsp/ffv_module_fv9.so.1
 vendor/lib/rfsa/adsp/fluence_bs_module.so.1
-vendor/lib/rfsa/adsp/fluence_ef_module_fv9.so.1
+vendor/lib/rfsa/adsp/fluence_bs_module_fv9.so.1
 vendor/lib/rfsa/adsp/fluence_ef_module.so.1
-vendor/lib/rfsa/adsp/fluence_pro_vc_module_fv9.so.1
+vendor/lib/rfsa/adsp/fluence_ef_module_fv9.so.1
 vendor/lib/rfsa/adsp/fluence_pro_vc_module.so.1
-vendor/lib/rfsa/adsp/fluence_pro_vr_module_fv9.so.1
+vendor/lib/rfsa/adsp/fluence_pro_vc_module_fv9.so.1
 vendor/lib/rfsa/adsp/fluence_pro_vr_module.so.1
-vendor/lib/rfsa/adsp/fluence_sm_module_fv9.so.1
+vendor/lib/rfsa/adsp/fluence_pro_vr_module_fv9.so.1
 vendor/lib/rfsa/adsp/fluence_sm_module.so.1
+vendor/lib/rfsa/adsp/fluence_sm_module_fv9.so.1
 vendor/lib/rfsa/adsp/fluence_voiceplus_module.so.1
 vendor/lib/rfsa/adsp/geofence.so
-vendor/lib/rfsa/adsp/HeaacDecoderModule.so.1
-vendor/lib/rfsa/adsp/LdacModule.so.1
 vendor/lib/rfsa/adsp/lg_nanoapp_pa.so
 vendor/lib/rfsa/adsp/lg_nanoapp_sbd.so
 vendor/lib/rfsa/adsp/lg_nanoapp_su.so
+vendor/lib/rfsa/adsp/libVC1Dec.so
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so
@@ -68,23 +76,15 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/libstabilitydomain_skel.so
+vendor/lib/rfsa/adsp/libsysmon_skel.so
 vendor/lib/rfsa/adsp/libsysmondomain_skel.so
 vendor/lib/rfsa/adsp/libsysmonquery_skel.so
-vendor/lib/rfsa/adsp/libsysmon_skel.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
 vendor/lib/rfsa/adsp/lowi_client.so
-vendor/lib/rfsa/adsp/mmecns_module.so.1
 vendor/lib/rfsa/adsp/mm_fluence_sb_module.so.1
-vendor/lib/rfsa/adsp/SAPlusCmnModule.so.1
-vendor/lib/rfsa/adsp/smecns_v2_module_fv9.so.1
-vendor/lib/rfsa/adsp/smecns_v2_module.so.1
+vendor/lib/rfsa/adsp/mmecns_module.so.1
 vendor/lib/rfsa/adsp/sm_fluence_sb_module.so.1
-vendor/lib/rfsa/adsp/SVACmnModule.so.1
-vendor/lib/rfsa/adsp/VoiceWakeup_V2_Module.so.1
-vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1
-vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1
-vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1
+vendor/lib/rfsa/adsp/smecns_v2_module.so.1
+vendor/lib/rfsa/adsp/smecns_v2_module_fv9.so.1
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
@@ -141,9 +141,9 @@ vendor/lib/liblghdri.so
 vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_wdr2.so
 vendor/lib/libmpbase.so
-vendor/lib/libtof_cal.so
-vendor/lib/libspectre.so
 vendor/lib/libsnsapi.so
+vendor/lib/libspectre.so
+vendor/lib/libtof_cal.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib64/hw/camera.msmnile.so
 vendor/lib64/hw/com.qti.chi.override.so
@@ -185,9 +185,9 @@ vendor/lib64/liblghdri.so
 vendor/lib64/libmorpho_image_stab31.so
 vendor/lib64/libmorpho_wdr2.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libtof_cal.so
-vendor/lib64/libspectre.so
 vendor/lib64/libsnsapi.so
+vendor/lib64/libspectre.so
+vendor/lib64/libtof_cal.so
 
 # Camera - Automatic white balancing and exposure
 vendor/lib/camera/fdconfigpreview.bin
@@ -763,31 +763,31 @@ vendor/etc/camera/vnr/SJ_VideoNR_LUT.bin
 vendor/firmware/CAMERA_ICP.elf
 
 # Display
+vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml.xml
 vendor/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml.xml
 vendor/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml
 vendor/etc/qdcm_calib_data_Dual_s6e3ha3_amoled_cmd_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_hx83112a_video_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_cmd_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_video_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_cmd_mode_dsi_visionox_panel.xml
-vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml
-vendor/etc/qdcm_calib_data_sharp_1080p_120hz_dual_dsi_cmd_mode_panel.xml
-vendor/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_hx83112a_video_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_cmd_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_video_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_cmd_mode_dsi_visionox_panel.xml
+vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml
+vendor/etc/qdcm_calib_data_sharp_1080p_120hz_dual_dsi_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml
@@ -797,9 +797,9 @@ vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml
 vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml
 
 # DRM
+vendor/bin/cpfirmware
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
-vendor/bin/cpfirmware
 vendor/bin/qseecomd
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
@@ -817,6 +817,7 @@ vendor/lib/libcpion.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libhdcpsrm.so
+vendor/lib/libmmosal.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libops.so
 vendor/lib/libqisl.so
@@ -829,6 +830,10 @@ vendor/lib/libssd.so
 vendor/lib/libtime_genoff.so
 vendor/lib/libtrustedapploader.so
 vendor/lib/libtzdrmgenprov.so
+vendor/lib/libwfdcommonutils_proprietary.so
+vendor/lib/libwfddisplayconfig_proprietary.so
+vendor/lib/libwfdmmservice_proprietary.so
+vendor/lib/libwfdutils_proprietary.so
 vendor/lib/vendor.qti.hardware.qseecom@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libGPreqcancel.so
@@ -841,6 +846,7 @@ vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libhdcpsrm.so
+vendor/lib64/libmmosal.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libops.so
 vendor/lib64/libqisl.so
@@ -853,12 +859,6 @@ vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-vendor/lib/libwfdutils_proprietary.so
-vendor/lib/libwfdcommonutils_proprietary.so
-vendor/lib/libwfdmmservice_proprietary.so
-vendor/lib/libwfddisplayconfig_proprietary.so
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.msmnile.so
@@ -888,10 +888,11 @@ vendor/firmware/libpn553_fw.so:vendor/lib/libpn553_fw.so
 vendor/firmware/libpn553_fw_64.so:vendor/lib64/libpn553_fw_64.so
 
 # Sensor
+vendor/etc/sensors/hals.conf
 vendor/etc/sensors/proto/descriptor.proto
 vendor/etc/sensors/proto/nanopb.proto
-vendor/etc/sensors/proto/sns_accel_cal.proto
 vendor/etc/sensors/proto/sns_accel.proto
+vendor/etc/sensors/proto/sns_accel_cal.proto
 vendor/etc/sensors/proto/sns_activity_recognition.proto
 vendor/etc/sensors/proto/sns_ambient_light.proto
 vendor/etc/sensors/proto/sns_ambient_temperature.proto
@@ -917,8 +918,8 @@ vendor/etc/sensors/proto/sns_fw.proto
 vendor/etc/sensors/proto/sns_game_rv.proto
 vendor/etc/sensors/proto/sns_geomag_rv.proto
 vendor/etc/sensors/proto/sns_gravity.proto
-vendor/etc/sensors/proto/sns_gyro_cal.proto
 vendor/etc/sensors/proto/sns_gyro.proto
+vendor/etc/sensors/proto/sns_gyro_cal.proto
 vendor/etc/sensors/proto/sns_gyro_rot_matrix.proto
 vendor/etc/sensors/proto/sns_hall.proto
 vendor/etc/sensors/proto/sns_heart_beat.proto
@@ -931,10 +932,10 @@ vendor/etc/sensors/proto/sns_lg_filtered_pressure.proto
 vendor/etc/sensors/proto/sns_lg_gated_gyro.proto
 vendor/etc/sensors/proto/sns_lg_health_activity.proto
 vendor/etc/sensors/proto/sns_lg_pam.proto
-vendor/etc/sensors/proto/sns_lgpickup.proto
 vendor/etc/sensors/proto/sns_lg_tof_wakeup_proximity.proto
-vendor/etc/sensors/proto/sns_mag_cal.proto
+vendor/etc/sensors/proto/sns_lgpickup.proto
 vendor/etc/sensors/proto/sns_mag.proto
+vendor/etc/sensors/proto/sns_mag_cal.proto
 vendor/etc/sensors/proto/sns_motion_accel.proto
 vendor/etc/sensors/proto/sns_oem1.proto
 vendor/etc/sensors/proto/sns_offbody_detect.proto
@@ -955,15 +956,15 @@ vendor/etc/sensors/proto/sns_rotv.proto
 vendor/etc/sensors/proto/sns_sar.proto
 vendor/etc/sensors/proto/sns_sensor_temperature.proto
 vendor/etc/sensors/proto/sns_sig_motion.proto
-vendor/etc/sensors/proto/sns_std_event_gated_sensor.proto
 vendor/etc/sensors/proto/sns_std.proto
+vendor/etc/sensors/proto/sns_std_event_gated_sensor.proto
 vendor/etc/sensors/proto/sns_std_sensor.proto
 vendor/etc/sensors/proto/sns_std_type.proto
 vendor/etc/sensors/proto/sns_step_detect.proto
 vendor/etc/sensors/proto/sns_suid.proto
 vendor/etc/sensors/proto/sns_thermopile.proto
-vendor/etc/sensors/proto/sns_threshold.proto
 vendor/etc/sensors/proto/sns_thresh.proto
+vendor/etc/sensors/proto/sns_threshold.proto
 vendor/etc/sensors/proto/sns_tilt.proto
 vendor/etc/sensors/proto/sns_tilt_to_wake.proto
 vendor/etc/sensors/proto/sns_ultra_violet.proto
@@ -1016,7 +1017,6 @@ vendor/etc/sensors/registry/config/sns_wrist_pedo.json
 vendor/etc/sensors/registry/config/spl06_0.json
 vendor/etc/sensors/registry/registry/sensors_registry
 vendor/etc/sensors/registry/registry/sensors_settings
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.sar.so
@@ -1027,19 +1027,19 @@ vendor/lib64/vendor.lge.hardware.sensors@1.0.so
 vendor/etc/thermal-engine-8150.conf
 
 # Wifi
-vendor/etc/wifi/aoa_cldb_falcon.bin
-vendor/etc/wifi/aoa_cldb_swl14.bin
-vendor/etc/wifi/bdwlan.bin
-vendor/etc/wifi/bdwlan_ch0.bin
-vendor/etc/wifi/bdwlan_ch1.bin
-vendor/etc/wifi/fstman.ini
 vendor/etc/wifi/GLOBAL/bdwlan.bin
 vendor/etc/wifi/GLOBAL/bdwlan_ch0.bin
 vendor/etc/wifi/GLOBAL/bdwlan_ch1.bin
-vendor/etc/wifi/icudt53l.dat
 vendor/etc/wifi/KR_ALL/bdwlan.bin
 vendor/etc/wifi/KR_ALL/bdwlan_ch0.bin
 vendor/etc/wifi/KR_ALL/bdwlan_ch1.bin
 vendor/etc/wifi/NA_ALL/bdwlan.bin
 vendor/etc/wifi/NA_ALL/bdwlan_ch0.bin
 vendor/etc/wifi/NA_ALL/bdwlan_ch1.bin
+vendor/etc/wifi/aoa_cldb_falcon.bin
+vendor/etc/wifi/aoa_cldb_swl14.bin
+vendor/etc/wifi/bdwlan.bin
+vendor/etc/wifi/bdwlan_ch0.bin
+vendor/etc/wifi/bdwlan_ch1.bin
+vendor/etc/wifi/fstman.ini
+vendor/etc/wifi/icudt53l.dat
