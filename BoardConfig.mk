@@ -13,7 +13,7 @@ DEVICE_PATH := device/lge/alphaplus
 TARGET_SCREEN_DENSITY := 560
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/alphaplus_lao_com-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_alpha_defconfig
 
 # Platform
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
