@@ -268,7 +268,7 @@ vendor/lib/camera/liblg_awb_param_s5k3m5tb_video.so
 vendor/lib/lib.com.lge.elvis.so
 vendor/lib/libSNPE.so
 vendor/lib/libSRIyuv.so
-vendor/lib/libc++_shared_snpe.so
+vendor/lib/libc++_shared_snpe.so;SYMLINK=vendor/lib/libc++_shared.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libdepthcomputation_wrapper.so
 vendor/lib/liblgae_main.so
@@ -356,7 +356,7 @@ vendor/lib64/camera/liblg_awb_param_s5k3m5tb_video.so
 vendor/lib64/lib.com.lge.elvis.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSRIyuv.so
-vendor/lib64/libc++_shared_snpe.so
+vendor/lib64/libc++_shared_snpe.so;SYMLINK=vendor/lib64/libc++_shared.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libdepthcomputation_wrapper.so
 vendor/lib64/liblgae_main.so
