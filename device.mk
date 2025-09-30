@@ -51,6 +51,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/touch_dev_2nd.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/touch_dev_2nd.idc \
     $(LOCAL_PATH)/keylayout/Vendor_1004_Product_637a.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1004_Product_637a.kl
 
+# LiveDisplay
+$(call soong_config_set,livedisplay_lge,enable_se,true)
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
